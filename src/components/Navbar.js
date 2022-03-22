@@ -14,6 +14,7 @@ const Navbar = ({ toggle }) => {
                 <div className="md:flex hidden justify-self-end ">
                     <NavLink exact={"true"} className="p-3 m-1" to='/'  >Home</NavLink>
                     <NavLink className="p-3 m-1" to='/orchestra'>Orchestra</NavLink>
+                    <NavLink className="p-3 m-1" to='/musicians' >Musicians</NavLink>
                     <NavLink className="p-3 m-1" to='/album' >Album</NavLink>
                 </div>
 

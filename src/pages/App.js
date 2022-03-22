@@ -40,7 +40,6 @@ function App() {
         <Route path='/orchestra' element={<Orchestra />} />
         <Route path='/musicians' element={<Musicians />} />
         <Route path='/album' element={<More />} />
-        {/* <Route path='/test' component={Scroll} /> */}
       </Routes>
     </>
   );

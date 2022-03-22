@@ -14,11 +14,6 @@ const Orchestra = () => {
         <>
             <div className="flex justify-center ">
                 <img src={ImageOne} className=" w-full h-80 md:h-128" alt="secondpage" />
-                <div className="absolute mb-20 self-end tracking-widest ">
-                    <button className="bg-primayColor text-white w-56 h-12 rounded uppercase">
-                        <Link className="p-4" to='/musicians'> See our musicians </Link>
-                    </button>
-                </div>
             </div>
             <div className="DivPage24  pb-96">
                 <div className="text-center pt-12">
