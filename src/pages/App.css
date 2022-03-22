@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: auto 0;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  width: 1280px;
+  font-family: "Ubuntu", sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  @apply text-3xl sm:text-3xl  mt-4 text-center tracking-widest space-y-3 uppercase !important;
+}
+h4 {
+  @apply text-xl my-3;
+}
+div {
+  @apply w-auto;
+}
+button:hover,
+a:hover {
+  @apply transform hover:scale-110;
+}
+a:active,
+a.active {
+  @apply bg-primayColor rounded !important;
+}
+
+.HomeGrid {
+  @apply grid md:grid-flow-col md:grid-cols-3 gap-4 justify-items-center relative mx-2 md:mx-14 mt-14 text-base;
+}
+.HomeCard {
+  @apply h-full w-64;
+}
+.HomeCardImage {
+  @apply h-72 w-64 rounded mb-10 shadow;
+}
+.HomeCardText {
+  @apply mx-4;
+}
+
+.OrchestraImageGrid {
+  @apply grid md:grid-flow-col grid-cols-6 gap-y-0;
+}
+.OrchestraGrid {
+  @apply grid grid-cols-1 md:grid-flow-col md:grid-cols-3 md:grid-rows-3 md:gap-y-0 justify-items-center relative mx-2 md:mx-14 mt-14;
+}
+
+.OrchCard {
+  @apply row-span-1 h-80 w-80 my-4 flex flex-wrap content-center;
+}
+.OrchCardImage {
+  @apply h-80 w-80 rounded mb-10 shadow;
+}
+.OrchList {
+  @apply text-sm list-disc list-inside;
+}
+
+.Sep2 {
+  @apply h-screen w-full absolute  bg-primayColor transform translate-y-40;
+}
+
+.MusicianGrid {
+  @apply grid md:grid-flow-col md:grid-cols-4 gap-1 justify-items-center relative mx-2 md:mx-6 mt-14;
+}
+
+.MusicianCardImage {
+  @apply h-72 w-60 rounded mb-5 shadow;
+}
+
+.DivPage24 {
+  @apply relative  bg-primayColor;
+}
+
+.AlbumGrid {
+  @apply grid  grid-cols-1 md:grid-cols-8 gap-1 justify-items-center mx-2 md:mx-4 py-10;
+}
+
+.AlbumImg {
+  @apply h-36 md:h-80 rounded  shadow  col-span-3;
+}
+.AlbumVideo {
+  width: 500px;
+  height: 300px;
+}
+
+@media screen and (max-width: 900px) {
+  .AlbumVideo {
+    width: 300px;
+    height: 250px;
+  }
+}
+.unUsedDiv {
+  @apply hidden md:flex;
+}
+
+.nohover a:hover {
+  background-color: transparent;
+}
+.nohover a:active,
+.nohover a.active {
+  background-color: transparent !important;
+}
+.yLigne {
+  @apply hidden md:flex;
+}
