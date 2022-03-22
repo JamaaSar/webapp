@@ -15,7 +15,7 @@ const Musicians = () => {
                 <img src={ImageOne} className="w-full h-96 md:h-128" alt="firstpage" />
             </div>
             <div className="relative  h-full pt-12 font-base bg-primayColor ">
-                <h1>Membres</h1>
+                <h1>Musicians</h1>
                 <div className="relative z-10 pb-40 ">
                     <div className="MusicianGrid">
                         <div>
